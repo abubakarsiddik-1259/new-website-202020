@@ -507,7 +507,7 @@
      
     }
     .cart-image-b{
-      background-image: url(./B12A02-Responsive-Flowers/assets/deal-bloom.png);
+      background-image: url(assets/deal-bloom.png);
     }
 
     .left-cards {
@@ -612,20 +612,20 @@
 }
 
 .bloom{
-  background-image:  linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(./B12A02-Responsive-Flowers/assets/deal-bloom.png);
+  background-image:  linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(assets/deal-bloom.png);
   background-repeat: no-repeat;
   background-size: cover ;
   background-position: center;
 }
 
 .ana{
-  background-image:  linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(./B12A02-Responsive-Flowers/assets/deal-ana.png);
+  background-image:  linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(assets/deal-ana.png);
    background-repeat: no-repeat;
   background-size: cover ;
   background-position: center;
 }
 .zabo{
-  background-image:  linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(./B12A02-Responsive-Flowers/assets/deal-zabo.png);
+  background-image:  linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(assets/deal-zabo.png);
    background-repeat: no-repeat;
   background-size: cover ;
   background-position: center;
@@ -697,7 +697,7 @@
 
 /* from ssssssssssssss */
 .from-section{
-    background-image:  linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url(./B12A02-Responsive-Flowers/assets/news-letter-bg.png);
+    background-image:  linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url(assets/news-letter-bg.png);
     height: 500px;
     background-repeat: no-repeat;
     background-size: cover;
