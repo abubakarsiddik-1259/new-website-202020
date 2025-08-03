@@ -1,0 +1,826 @@
+
+
+* {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      
+    }
+
+
+
+.container-width{
+    max-width: 1140px;
+    margin:  auto;
+}
+
+.b-color{
+  color: #000000;
+}
+.s-color{
+  color: #000000
+}
+
+
+
+
+
+
+    .navbar {
+      background-color: #fff;
+      padding: 15px 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    
+    
+      
+    }
+
+    .logo {
+      font-size: 24px;
+      font-weight: bold;
+      color: #333;
+    }
+
+    .nav-items {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+    }
+
+    .nav-items a {
+      text-decoration: none;
+      color: #333;
+      font-weight: 500;
+    }
+
+    .cartt {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .cartt-icon {
+      width: 20px;
+      height: 20px;
+      background-size: contain;
+    }
+
+    /* Responsive Styles */
+    @media (max-width: 768px) {
+      .nav-items a {
+        display: none;
+      }
+
+      .cart span {
+        display: inline;
+      }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+    
+/* Banner .......................................... */
+   
+
+
+
+ 
+.banner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px 20px;
+  max-width: 1200px;
+  margin: 50px auto;
+  gap: 40px;
+  flex-wrap: wrap;
+   flex: 1;
+
+}
+
+.banner-text {
+  flex: 1;
+   
+}
+
+.banner-text h1 {
+  font-size: 36px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.banner-text p {
+  font-size: 18px;
+  color: #666;
+}
+
+.banner-image {
+  flex: 1;
+  text-align: right;
+  
+}
+
+.banner-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+  .banner {
+    flex-direction: column;
+    text-align: left;
+  }
+
+  .banner-image {
+    order: -1;
+    text-align: center;
+   
+  }
+
+  .banner-text h1 {
+    font-size: 28px;
+    margin-top: 20px;
+  }
+
+  .banner-text p {
+    font-size: 16px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Plants Section ....................... */
+
+
+
+
+
+    .plants-section {
+      padding: 40px 20px;
+      text-align: center;
+      text-align: center;
+     margin-bottom: 100px;
+    }
+
+    .plants-section h2 {
+      font-size: 32px;
+      margin-bottom: 10px;
+      color: #1f2937;
+    }
+
+    .plants-section p {
+      font-size: 18px;
+      color: #6b7280;
+      margin-bottom: 30px;
+    }
+
+    .plants-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 20px;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    .plant-card {
+      background-color: #ffffff;
+      border-radius: 12px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      overflow: hidden;
+      transition: transform 0.3s ease;
+    }
+
+    .plant-card:hover {
+      transform: translateY(-5px);
+    }
+
+    .plant-image {
+      height: 180px;
+      background-color: #d1d5db;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .plant-image img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .plant-content {
+      padding: 16px;
+      text-align: left;
+    }
+
+    .plant-name {
+      font-size: 18px;
+      font-weight: bold;
+      color: #111827;
+      margin-bottom: 8px;
+    }
+
+    .plant-price {
+      color: #10b981;
+      font-weight: 600;
+      margin-bottom: 12px;
+    }
+
+    .add-button {
+      background-color: #3b82f6;
+      color: white;
+      padding: 8px 14px;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 14px;
+    }
+
+    .add-button:hover {
+      background-color: #2563eb;
+    }
+
+    @media (max-width: 768px) {
+      .plants-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+
+    @media (max-width: 480px) {
+      .plants-section h2 {
+        font-size: 24px;
+      }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+    
+/* Plants Lover Section ,.....................*/
+
+
+
+
+
+.heading-c{
+    font-size: 50px;
+    font-weight: 700px;
+}
+.paragraph{
+    font-size: 25px;
+    color: #00000080;
+}
+
+.list-g{
+    gap: 60px;
+
+}
+.list-h{
+    padding-top: 20px;
+}
+
+.nav-section{
+    display: flex;
+    justify-content: space-between;
+}
+.section-h{
+    display: flex;
+    margin: 100px auto;
+}
+
+.badge{
+    width: 200px;
+    height: 255px;
+    position: absolute;
+    top: -100px;
+    right: -80px;
+    filter: drop-shadow(-4px 10px 4px rgb(0,0,0,0.25));
+
+}
+
+.img-contain{
+    position: relative;
+}
+
+
+
+@media screen and (max-width: 576px) {
+    .section-h{
+        flex-direction: column;
+        gap: 18px;
+    }
+    .story{
+        width: 100%;
+    }
+    .badge{
+        display: none;
+    }
+    .heading-c{
+        font-size: 24px;
+        margin: 0px;
+    }
+    br{
+        display: none;
+    }
+    .paragraph{
+        font-size:14px ;
+    }
+    .list-h{
+        margin-top: 16px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Challenges Part............. */
+
+    .card-container {
+      display: flex;
+      gap: 16px;
+      max-width: 1000px;
+      margin: 0 auto;
+      flex-wrap: wrap;
+   
+    }
+    .title-c{
+      text-align: center;
+      margin: 50px auto;
+      
+     
+    }
+    .cart-image-b{
+      background-image: url(./B12A02-Responsive-Flowers/assets/deal-bloom.png);
+    }
+
+    .left-cards {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+      
+    }
+
+    .right-card {
+      flex: 2 1 600px;
+    }
+
+    .card {
+      position: relative;
+      border-radius: 12px;
+      overflow: hidden;
+      background-size: cover;
+      background-position: center;
+      height: 130px;
+      color: #fff;
+      display: flex;
+      align-items: flex-end;
+      padding: 16px;
+    }
+
+    .card.large {
+      height: 276px;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+
+    .card h3, .card h2 {
+      margin: 0;
+      font-weight: bold;
+      font-size: 18px;
+    }
+
+    .card.large h2 {
+      font-size: 26px;
+    }
+
+    .card p {
+      margin: 6px 0 0;
+      font-size: 14px;
+      font-weight: bold;
+      text-decoration: underline;
+    }
+
+    @media (max-width: 768px) {
+      .card-container {
+        flex-direction: column;
+      }
+
+      .left-cards, .right-card {
+        flex: 1 1 100%;
+      }
+
+      .card.large {
+        height: 200px;
+      }
+    }
+
+
+
+
+
+
+
+
+
+    
+
+
+    
+.title-contain{
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+   padding-bottom: 50px;
+}
+.t-h2{
+  padding-bottom: 20px;
+}
+.cart-container{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.cart{
+ height: 200px;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ color: white;
+ border-radius: 15px;
+ 
+}
+
+.bloom{
+  background-image:  linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(./B12A02-Responsive-Flowers/assets/deal-bloom.png);
+  background-repeat: no-repeat;
+  background-size: cover ;
+  background-position: center;
+}
+
+.ana{
+  background-image:  linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(./B12A02-Responsive-Flowers/assets/deal-ana.png);
+   background-repeat: no-repeat;
+  background-size: cover ;
+  background-position: center;
+}
+.zabo{
+  background-image:  linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(./B12A02-Responsive-Flowers/assets/deal-zabo.png);
+   background-repeat: no-repeat;
+  background-size: cover ;
+  background-position: center;
+  height: 100%;
+  grid-column: 2/3 ;
+  grid-row: 1/3;
+  
+}
+
+
+.cart span{
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 576px) {
+.cart-container{
+        grid-template-columns:repeat(1, 1fr) ;
+        margin-top: 50px;
+}
+.cart{
+ height: 206px;
+}
+.zabo{
+    grid-column: auto;
+    grid-row: auto;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* from ssssssssssssss */
+.from-section{
+    background-image:  linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url(./B12A02-Responsive-Flowers/assets/news-letter-bg.png);
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 100px ;
+    margin-bottom: 20px;
+}
+.sub-box{
+    display: flex;
+    width: 70%;
+}
+.from-section h2{
+    color: white;
+}
+.sub-box input[type="email"]{
+   width: 100%;
+   padding: 8px 20px;
+   outline: none;
+}
+.sub-box input[type="email"]::placeholder{
+  font-size: 16px;
+  color:#00000080 ;
+}
+
+.from-section button{
+    background-color: #e95a08;
+    padding: 20px 50px;
+    color: white;
+    font-weight: 600px;
+    font-size: 16px;
+    border: none;
+}
+
+
+@media screen and (max-width: 576px) {
+ .from-section button{
+    padding: 8px 20px ;
+ }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer-section{
+  display: flex;
+  justify-content: space-between;
+  padding: 150px;
+ 
+}
+
+.foot-list{
+  display: flex;
+  gap: 100px;
+  
+}
+.foot-list-one li{
+  padding-bottom: 40px;
+  color: #6B7280;
+  list-style: none;
+
+}
+.foot-list-two li{
+  padding-bottom: 40px;
+  color: #6B7280;
+  list-style: none;
+}
+.foot-img{
+  width: 135px;
+  height: 82px;
+}
+.foot-title{
+  width: 350px;
+}
+/* .foot-logo{
+  display: flex;
+  width: 50px;
+} */
+ @media screen and (max-width: 576px) {
+  .footer-section{
+
+         display: grid;
+        grid-template-columns:repeat(1, 1fr) ;
+      
+      
+      }
+      .foot-list-two li{
+        margin-top: 0px;
+      }
+      .foot-list{
+        
+         display: grid;
+        grid-template-columns:repeat(1, 1fr) ;
+      
+      }
+ }
+
+
